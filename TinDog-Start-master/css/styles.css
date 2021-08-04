@@ -1,0 +1,137 @@
+/****************** Tags  ***********************/
+body{
+  font-family: 'Montserrat-Black', sans-serif;
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family:"Montserrat-bold";
+  font-weight: bold;
+  /*line-height: 1.5; */
+}
+                /****************** IDs  ***********************/
+#features{
+position:relative;
+z-index: 1;
+}
+#testimonials{
+  background-color:#FF4C68;
+}
+#press{
+  padding:5% 7%;
+}
+#pricing{
+  padding: 100px;
+}
+
+                /****************** Classes  ***********************/
+/* heading */
+.big-heading{
+  font-size: 4rem;
+  line-height: 1.5;
+  font-family: "Montserrat-Black";
+}
+.section-heading{
+  font-weight: bolder;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+/* containers */
+.container-fluid{
+  padding: 7% 15%;
+}
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+/* section-color */
+.colored-section{
+  background-color: #FF4C68;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+}
+/* navbar */
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 20px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+/* Download title */
+.download-title{
+  margin: 5% 3% 5% 0;
+
+}
+/* img-title */
+.img-dog-title{
+  transform: rotate(25deg);
+  width: 60%;
+  margin-left: 7.5rem;
+  position: absolute;
+}
+/* section features */
+
+ .img-feature{
+   color: #ef8172;
+    margin-bottom: 1rem; /*to make space between the text and the icon photo */
+ }
+ .feature-title{
+   font-size: 1.5rem;
+ }
+ .feature-p{
+   color: #8f8f8f;
+ }
+.feature-box{
+  padding: 5%;
+}
+.img-feature:hover{
+  color: #FF4C6f;
+}
+/* testimonials */
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+
+}
+.testimonial-text{
+    line-height: 1.5;
+    font-size: 3rem;
+}
+/* section-press */
+
+.press-img{
+  margin: 0 5px;
+    width: 200px;
+}
+/* pricing */
+.r-pricing{
+  padding: 3% 2%;
+}
+@media (max-width:1010px) {
+  .img-dog-title{
+    position: static;
+    transform: rotate(0);
+    margin: 0;
+  }
+  #title{
+    text-align:center;
+  }
+  #press{
+    padding: 20px 0;
+  }
+}
+
+/* footer */
+.footer-icon{
+  margin:4rem 0.5rem 1rem;
+}
